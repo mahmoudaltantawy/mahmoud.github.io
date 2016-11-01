@@ -1,0 +1,101 @@
+body{font-family: 'Lato', sans-serif; min-height: 1000px;}
+header{margin-top: 2%}
+.container{margin:auto;}
+.name img{
+	width: 200px;
+	height: 150px; 	
+	margin-top: 2%;
+}
+.name .nca{
+	float: right;
+	margin-top: -18%;
+}
+.my_nav .dropdown{
+	display: inline-block;
+	margin-left: 57%;
+	margin-top: 28%;
+} 
+.my_nav .dropdown-menu{background-color: #585858;}
+.my_nav .dropdown .btn{background-color:  #585858; border-color:#585858; color: #FFF ;padding: 9px 12px; font-size: 15px;}
+.my_nav .dropdown .btn .caret {
+    margin-left: 22px;
+}
+
+.my_nav .dropdown-menu li{
+	
+	padding: 7px;
+	transition:padding 0.3s linear;
+
+}
+.my_nav .dropdown-menu li a{color: #FFF}
+.my_nav .dropdown-menu li:hover{
+	background-color: #FFF;
+	padding-left: 11px;
+}
+.my_nav .dropdown-menu li:hover a{color: #333}
+
+
+.my_nav .admin{
+	float: right;
+	margin-top: 23%;
+}
+.my_nav .admin img{
+	width: 76px;
+height: 74px;
+}
+					/*start content*/
+.content{
+	margin-top: 3%;
+}
+.content .module{
+	margin-top: 10%;
+	padding: 40px 15px;	
+	color: #FFF;
+	height: 270px;
+	box-shadow: 2px 4px 7px #838383;
+	border-radius: 10px;
+}
+.content .module img{width: 76px;
+height: 87px;
+margin-top: -12px;
+transition: all 0.6s linear;
+}
+.content .module img:hover{
+	cursor: pointer;
+	transform: rotate(360deg);
+}
+.content .module span{
+	font-size: 24px;
+	margin-left: 9%;
+	letter-spacing: 2px;
+}
+.content .module p{
+	font-size: 18px;
+}
+.content .module label{font-size: 18px;}
+.content .module label {
+    font-size: 18px;
+    margin: 10px;
+}
+.content .module .btn{
+	width: 145px;
+	height: 47px;
+	margin-left: 30%;
+	background-color: #FFF; color: #333;
+	margin-top: 10px;
+	transition: all 0.2s linear;
+}
+.content .module .btn:hover{
+	background-color: #585858;
+	color:#FFF;
+	font-weight: bold;
+}
+.blue{
+	background-color: #2D6292;
+}
+
+.green{background-color: #90A930}
+.brown{background-color: #506BAE}
+.orange{background-color: #C13A00}
+.bnfsg{background-color: #815FAF}
+.bnfsg2{background-color: #2C2C2C}

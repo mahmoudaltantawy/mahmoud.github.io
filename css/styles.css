@@ -1,0 +1,123 @@
+body{
+    background: url('../images/image1.jpg') fixed center center no-repeat;
+    
+    background-size: cover;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+#overlay{
+    background-color: #333;
+    height: 100%;
+    opacity: 0.6;
+    position: relative;
+}
+.container{
+    position: absolute;
+    top: 33%;
+   left: 21%;
+width: 50%;
+    background: #463C40;
+    z-index: 999;
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+}
+.container:hover{background: #2B2B2B;border-radius: 10px;  cursor: pointer;}
+.container h2{padding-bottom: 15px;}
+.container h2:after{
+   content: '';
+   display: block;
+width: 80%;
+height: 2px;
+  margin-top: 15px;
+    margin-left: 47px;
+    background: #FFF;
+}
+.container form{
+    margin-top: 20px;
+    width: 80%; margin-left: 15%;
+}
+
+i{color: #4DDA4C}
+.container form .form-group input{
+    padding-left: 30px;
+    
+   
+
+}
+#font{display: inline-block;
+margin-top: -25px;
+color: #F00;
+margin-left: 9px;
+}
+.container button{
+    width: 80%;
+    margin-left: 10%;
+    transition: all 0.3s ease-in-out;
+}
+.container .btn-default{
+    
+   margin-top: 15px;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 15px;
+    background-color:#FFFDFE;
+    letter-spacing: 1px;
+    font-size: 17px;
+     
+}
+.container button:hover{
+     font-weight: bold;
+   
+    font-size: 17px;
+    
+    background:none;
+    color: #FFF;
+ }
+input {
+    -webkit-text-fill-color: #222 !important;
+    -moz-text-fill-color: #222 !important;
+    -webkit-text-fill-color: #222 !important;
+}
+
+
+/*start media query*/
+@media screen and (min-width: 786px) {
+    .container h2:after{
+        width: 68%;
+        margin-top: 4%;
+        margin-left: 17%;
+       
+    }
+
+   
+}
+
+@media screen and (max-width: 786px) {
+    .container {
+        top: 38%;
+        width: 83%;
+        left: 5%;
+        font-size: 17px;
+    }
+
+    .container .btn-default{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 100%;
+        left: -2%;
+        top: 34%;
+        font-size: 17px;
+    }
+
+    .container .btn-default{
+        font-size: 19px;
+    }
+}
+
